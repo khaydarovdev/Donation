@@ -77,7 +77,6 @@ export default {};
 }
 .cards {
 	display: flex;
-
 	gap: 395px;
 }
 .card {
