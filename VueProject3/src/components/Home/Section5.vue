@@ -40,6 +40,7 @@ export default {};
 }
 .jessore {
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
 	gap: 30px;
 }

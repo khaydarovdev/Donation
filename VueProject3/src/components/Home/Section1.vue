@@ -95,4 +95,97 @@ export default {};
 	border: 1px solid black;
 	background-color: white;
 }
+@media (max-width: 1024px) {
+	.sec1 {
+		width: 100%;
+		flex-direction: column;
+		text-align: center;
+		gap: 20px;
+	}
+
+	.txt h1 {
+		font-size: 35px;
+	}
+
+	.txt h4 {
+		font-size: 16px;
+	}
+
+	.don,
+	.join {
+		width: 220px;
+		height: 45px;
+		font-size: 15px;
+	}
+
+	.btns {
+		flex-direction: column;
+		gap: 15px;
+	}
+
+	img {
+		width: 70%; /* Resize image for smaller screens */
+	}
+}
+
+/* For mobile devices (max-width: 768px) */
+@media (max-width: 768px) {
+	.sec1_full {
+		padding-top: 10vh;
+		height: auto;
+	}
+
+	.sec1 {
+		width: 100%;
+		flex-direction: column;
+		text-align: center;
+		gap: 30px;
+	}
+
+	.txt h1 {
+		font-size: 30px;
+	}
+
+	.txt h4 {
+		font-size: 14px;
+	}
+
+	.don,
+	.join {
+		width: 200px;
+		height: 40px;
+		font-size: 14px;
+	}
+
+	.btns {
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	img {
+		width: 80%; /* Adjust the image size for mobile */
+	}
+}
+
+/* For very small devices (max-width: 480px) */
+@media (max-width: 480px) {
+	.txt h1 {
+		font-size: 24px;
+	}
+
+	.txt h4 {
+		font-size: 12px;
+	}
+
+	.don,
+	.join {
+		width: 180px;
+		height: 35px;
+		font-size: 12px;
+	}
+
+	img {
+		width: 100%; /* Full width on small devices */
+	}
+}
 </style>
